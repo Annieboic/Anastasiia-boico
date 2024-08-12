@@ -2,6 +2,19 @@ body {
     background-color: rgb(229, 243, 218);
     color: rgb(61, 60, 59);
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#bg-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.3;
+    
 }
 
 h1{
@@ -11,7 +24,9 @@ h1{
     font-weight: 600;
     color: rgb(11, 7, 7);
     font-style: strong;
-    margin: 0;
+    margin: 10,0;
+    
+    
     
 }
 h2{
@@ -37,17 +52,55 @@ p{
     text-align: center;
 }
 
-li{
-    padding-bottom: 10px;
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(242, 239, 242);
+    
+  }
+  
+  .nav-bar ul {
+    display: flex;
+    gap: 4em;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    list-style: none;
+
+}
+  .nav-bar li{
+    flex: 1;
+  }
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(212, 209, 209);
+ 
+    
 }
 
-ul{
-    padding-bottom: 20px;
-    list-style-position: inside;
-    list-style-type: square;
+.experience-container div {
+    background-color: antiquewhite;
+}
+
+.container-connect {
+   display: flex;
+   flex-direction: row;
+   border: 5px solid rgb(212, 209, 209);;
+   
+}
+.container-connect div {
+    
 }
 
 
+
+
+
+
+  
 
 
 
